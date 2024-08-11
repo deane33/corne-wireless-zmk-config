@@ -87,15 +87,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-// | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RSHIFT ESC |
+// |  TAB |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  | ;  | BKSP |
+// | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  '   |
+// | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  /  | RSHIFT ESC |
 //                    | GUI | LWR | SPC |   | CTRL | RSE  | ALT |
                         display-name = "Base";
                         bindings = <
-   &kp TAB        &kp Q           &kp W         &kp E              &kp R            &kp T               &kp Y &ht N1 U  &ht N2 I     &ht N3 O   &kp P       &kp BSPC
-   &ht LBRC LCTRL &ht LBKT A      &ht LPAR S    &ht RPAR D         &ht RBKT F       &ht RBRC G          &kp H &ht N4 J  &ht N5 K     &ht N6 L   &kp SEMI    &kp SQT
-   &kp LSHFT      &ht  UNDER Z    &ht EQUAL X   &ht KP_MULTIPLY C  &ht MINUS V      &ht TILDE B               &kp N &ht N7 M  &ht N8 COMMA &ht N9 DOT &ht N0 FSLH &ht RSHIFT ESC
+   &kp TAB        &kp Q           &kp W         &kp F              &kp P            &kp B               &kp J &ht N1 L  &ht N2 U     &ht N3 Y   &kp SEMI           &kp BSPC
+   &ht LBRC LCTRL &ht LBKT A      &ht LPAR R    &ht RPAR S         &ht RBKT T       &ht RBRC G          &kp M &ht N4 N  &ht N5 E     &ht N6 I   &ht N0 O           &kp SQT
+   &kp LSHFT      &ht  UNDER Z    &ht EQUAL X   &ht KP_MULTIPLY C  &ht MINUS D      &ht TILDE V         &kp K &ht N7 H  &ht N8 COMMA &ht N9 DOT &kp FSLH           &ht RSHIFT ESC
                   &kp LGUI &mo 1 &kp SPACE                                                              &kp RCTRL &mo 2 &kp RALT
                         >;
                 };
